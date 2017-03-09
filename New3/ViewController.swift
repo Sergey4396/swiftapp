@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+        lable.text = "ewew"
+        print("Button Tapped")
+    }
+    
+    @IBOutlet weak var lable: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
